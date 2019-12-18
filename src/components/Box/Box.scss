@@ -1,0 +1,23 @@
+.single-box {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .box {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  .box-del-btn {
+    border: none;
+    height: 30px;
+    outline: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+    font-weight: 100;
+    font-size: 16px;
+  }
+}
